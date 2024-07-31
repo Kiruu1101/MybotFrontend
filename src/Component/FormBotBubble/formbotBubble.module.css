@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.profile {
+  height: 40px;
+}
+
+.profileIcon {
+  width: 40px;
+  height: 40px;
+  color: #7474f5;
+}
+
+.bubbleContainer {
+  background-color: #f7f8ff;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.4s ease-in 0.2s;
+  border-radius: 5px;
+}
+
+.text {
+  padding: 10px 15px;
+  color: #303235;
+  word-break: break-all;
+}
+
+.media {
+  width: 300px;
+  height: 200px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.dotFlashing {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dot-flashing 1s infinite linear alternate;
+  animation-delay: 0.5s;
+  margin: 15px 32px;
+}
+.dotFlashing::before,
+.dotFlashing::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+.dotFlashing::before {
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dot-flashing 1s infinite alternate;
+  animation-delay: 0s;
+}
+.dotFlashing::after {
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #0c0d1885;
+  color: #0c0d1885;
+  animation: dot-flashing 1s infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes dot-flashing {
+  0% {
+    background-color: #0c0d1885;
+  }
+  50%,
+  100% {
+    background-color: #86868985;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profile {
+    width: 30px;
+    height: 30px;
+  }
+  .media {
+    width: 200px;
+    height: 150px;
+  }
+}

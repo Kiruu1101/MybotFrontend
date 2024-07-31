@@ -1,0 +1,72 @@
+.container {
+  padding: 80px 20px 0px 20px;
+}
+.main {
+  display: flex;
+  align-items: center;
+}
+.content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.heading {
+  background: linear-gradient(90deg, #4b83ff 0%, #b794f4 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 72px;
+  line-height: 86.4px;
+  text-align: center;
+}
+
+.text {
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  color: rgba(160, 174, 192, 1);
+}
+
+.create {
+  font-size: 18px;
+  padding: 21.15px 32px 21.25px 32px;
+}
+
+.formImg {
+  position: relative;
+  padding: 40px 40px 0px 40px;
+  text-align: center;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.5;
+  animation: grow 5s infinite;
+  width: 600px;
+  height: 600px;
+  z-index: -1;
+  filter: blur(20px);
+}
+
+.circle1 {
+  background-color: rgba(230, 114, 0, 1);
+  left: 5%;
+}
+
+.circle2 {
+  background-color: rgba(0, 66, 218, 1);
+  right: 5%;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+  height: 92vh;
+}
+
+.formMenu {
+  width: 350px;
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(24, 24, 27, 1);
+  min-height: 87vh;
+  margin: 20px;
+  padding: 60px 20px 20px 20px;
+  border-radius: 8px;
+}
+
+.formBoard {
+  flex: 4 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.formText {
+  color: rgba(255, 255, 255, 0.92);
+  line-height: 21px;
+  margin: 15px 0px;
+}
+
+.formInput {
+  border: 1px solid rgba(39, 39, 42, 1);
+  border-radius: 8px;
+  width: 149px;
+  height: 39px;
+  display: flex;
+  gap: 8px;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background: rgba(31, 31, 35, 1);
+  padding: 9px 17px 9px 17px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.inputIcon {
+  width: 16px;
+  height: 16px;
+  color: rgba(255, 165, 76, 1);
+}
+
+.gif {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.bubbleIcon {
+  width: 16px;
+  height: 16px;
+  color: rgba(75, 131, 255, 1);
+}
+
+.start {
+  width: 309px;
+  min-height: 60px;
+  border-radius: 16px;
+  background: rgba(24, 24, 27, 1);
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  padding-left: 30px;
+  line-height: 21px;
+  margin: 78px 0px;
+}
+
+.formList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

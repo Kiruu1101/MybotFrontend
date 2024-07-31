@@ -1,0 +1,78 @@
+export const DummyForm = {
+  form: [
+    {
+      fieldName: "Text",
+      isBubble: true,
+      fieldType: 1,
+      fieldValue: "Welcome to AA (Awesome Agency)",
+      _id: "66a7b325ab62eca8fec04bf2",
+    },
+    {
+      fieldName: "Image",
+      isBubble: true,
+      fieldType: 2,
+      fieldValue:
+        "https://media2.giphy.com/media/XD9o33QG9BoMis7iM4/giphy.gif?cid=fe3852a3ihg8rvipzzky5lybmdyq38fhke2tkrnshwk52c7d&rid=giphy.gif&ct=g",
+      _id: "66a7b325ab62eca8fec04bf3",
+    },
+    {
+      fieldName: "Button",
+      isBubble: false,
+      fieldType: 11,
+      fieldValue: "Hi!",
+      _id: "66a7b325ab62eca8fec04bf6",
+    },
+    {
+      fieldName: "Text",
+      isBubble: true,
+      fieldType: 1,
+      fieldValue: "What's your name?",
+      _id: "66a7b325ab62eca8fec04bf4",
+    },
+    {
+      fieldName: "Input Text",
+      isBubble: false,
+      fieldType: 5,
+      fieldValue: "",
+      _id: "66a7b325ab62eca8fec04c03",
+    },
+    {
+      fieldName: "Text",
+      isBubble: true,
+      fieldType: 1,
+      fieldValue: "Great! Nice to meet you",
+      _id: "66a7b325ab62eca8fec04b89",
+    },
+    {
+      fieldName: "Text",
+      isBubble: true,
+      fieldType: 1,
+      fieldValue: "What's the best email we can reach you at?",
+      _id: "66a7b325ab62eca8fec04b89",
+    },
+    {
+      fieldName: "Input Email",
+      isBubble: false,
+      fieldType: 7,
+      fieldTypeCount: 1,
+      fieldValue: "",
+      _id: "66a7b325ab62eca8fec04bf8",
+    },
+    {
+      fieldName: "Text",
+      isBubble: true,
+      fieldType: 1,
+      fieldValue: "Perfect!",
+      _id: "66a7b325ab62eca8fec04b89",
+    },
+    {
+      fieldName: "Text",
+      isBubble: true,
+      fieldType: 1,
+      fieldValue: "We'll get back to you Soon",
+      _id: "66a7b325ab62eca8fec04b89",
+    },
+  ],
+  inputFieldCount: 3,
+  theme: 2,
+};

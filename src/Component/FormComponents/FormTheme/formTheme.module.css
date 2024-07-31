@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+}
+.themeMenu {
+  width: 350px;
+  background: rgba(24, 24, 27, 1);
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04);
+  border: 2px solid rgba(39, 39, 42, 1);
+  min-height: 87vh;
+}
+
+.line {
+  width: 350px;
+  border: 1px solid rgba(44, 44, 47, 1);
+}
+
+.title {
+  font-size: 20px;
+  line-height: 27.24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  padding: 40px 0px;
+  text-align: center;
+}
+
+.themes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 60px;
+}
+
+.themeImg {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border: 1px solid rgba(39, 39, 42, 1);
+}
+
+.themeText {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  line-height: 16.8px;
+  border: 1px solid rgba(39, 39, 42, 1);
+  padding: 15px 0px 15px 20px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.active {
+  border: 3px solid rgba(26, 95, 255, 1);
+  border-radius: 8px;
+}
+
+.themeBoard {
+  flex: 4 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.light {
+  background: #ffffff;
+}
+
+.dark {
+  background: #171923;
+}
+
+.tailBlue {
+  background: rgba(80, 140, 155, 1);
+}

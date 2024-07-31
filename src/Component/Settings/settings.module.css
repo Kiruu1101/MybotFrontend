@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  overflow: hidden;
+}
+
+.navbar {
+  flex: 1;
+}
+
+.settings {
+  flex: 2;
+  padding: 40px 0px;
+  height: 100vh;
+}
+
+.settingContainer {
+  padding-left: 40px;
+}
+
+.header {
+  width: 40%;
+  font-size: 22px;
+  line-height: 29.96px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.inputContinaer {
+  border: 1.38px solid rgba(208, 208, 208, 1);
+  border-radius: 11px;
+  padding: 5px 10px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+.input {
+  background-color: transparent;
+  color: rgba(130, 130, 130, 1);
+  border: none;
+  font-size: 19px;
+  width: 85%;
+  padding: 5px 10px;
+  font-size: 19.29px;
+  line-height: 26.28px;
+}
+
+.input::placeholder {
+  color: rgba(130, 130, 130, 1);
+  font-size: 19.29px;
+  line-height: 26.28px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  color: rgba(130, 130, 130, 1);
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  font-size: 19px;
+  width: 40%;
+  line-height: 26px;
+  padding: 10px;
+  border-radius: 55px;
+  margin: 11px 0px;
+}
+
+.mainbtn {
+  background-color: rgba(26, 95, 255, 1);
+  margin-top: 22px;
+}
+
+.normal {
+  border: 1.38px solid rgba(23, 162, 184, 1);
+  color: rgba(23, 162, 184, 1);
+}
+
+.footer {
+  width: 100%;
+  flex-direction: column;
+  gap: 12px;
+  margin: 11px;
+}
+
+.footertxt {
+  color: rgba(130, 130, 130, 1);
+}
+
+.error {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  width: 78%;
+  margin: 7px 0px 0px 0px;
+  color: rgba(219, 55, 31, 1);
+}
+
+.remainder {
+  color: rgba(219, 55, 31, 1);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  margin: 20px 0px;
+  width: 40%;
+  text-indent: -12px;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: rgba(207, 54, 54, 1);
+  margin-bottom: 40px;
+  padding: 0px 57px;
+}
+
+.navIcon {
+  margin-right: 15px;
+  font-size: 24px;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.homepageIcon {
+  margin-top: 40px;
+  font-size: 80px;
+  color: #9c9cd9;
+  padding: 0px 57px;
+  cursor: pointer;
+}

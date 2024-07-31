@@ -1,0 +1,57 @@
+.container {
+  padding: 15px;
+}
+
+.title {
+  color: rgba(255, 255, 255, 1);
+  font-size: 27.33px;
+  line-height: 41px;
+  margin: 10px 0px 10px 0px;
+}
+
+.input {
+  background-color: rgba(31, 31, 35, 1);
+  border: none;
+  border-radius: 10px;
+  color: rgba(161, 161, 161, 0.31);
+  font-size: 20px;
+  line-height: 41px;
+  padding: 20px 15px;
+  width: 100%;
+  margin: 10px 0px;
+}
+
+.input::placeholder {
+  color: rgba(161, 161, 161, 0.31);
+}
+
+.input:focus {
+  outline: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 0px;
+}
+
+.line {
+  border: 1px solid rgba(71, 71, 74, 1);
+  height: 50px;
+}
+
+.done,
+.cancel {
+  font-size: 27.33px;
+  line-height: 41px;
+  text-align: center;
+}
+
+.done {
+  color: rgba(75, 131, 255, 1);
+}
+
+.cancel {
+  color: rgba(255, 255, 255, 1);
+}

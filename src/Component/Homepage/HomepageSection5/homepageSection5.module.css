@@ -1,0 +1,35 @@
+.container {
+  padding: 80px 0px;
+  flex-direction: column;
+}
+
+.content {
+  padding: 80px 0px;
+}
+
+.heading {
+  font-size: 60px;
+  line-height: 72px;
+  color: rgba(255, 255, 255, 0.92);
+  text-align: center;
+}
+
+.text {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgba(160, 174, 192, 1);
+  text-align: center;
+}
+
+.formbot {
+  width: 574px;
+  height: 531px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  overflow: scroll;
+}
+
+.formbot {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,204 @@
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.formBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bubblecontainers {
+  display: flex;
+  gap: 10px;
+}
+.profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.bubbleContainer {
+  background-color: #f7f8ff;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.4s ease-in 0.2s;
+  border-radius: 5px;
+}
+
+.text {
+  padding: 10px 15px;
+  color: #303235;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.media {
+  width: 200px;
+  height: 150px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.dotFlashing {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dot-flashing 1s infinite linear alternate;
+  animation-delay: 0.5s;
+  margin: 15px 32px;
+}
+.dotFlashing::before,
+.dotFlashing::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+.dotFlashing::before {
+  left: -15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  animation: dot-flashing 1s infinite alternate;
+  animation-delay: 0s;
+}
+.dotFlashing::after {
+  left: 15px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #0c0d1885;
+  color: #0c0d1885;
+  animation: dot-flashing 1s infinite alternate;
+  animation-delay: 1s;
+}
+
+@keyframes dot-flashing {
+  0% {
+    background-color: #0c0d1885;
+  }
+  50%,
+  100% {
+    background-color: #86868985;
+  }
+}
+
+.inputContainers {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+}
+
+.button {
+  background: rgba(5, 62, 196, 1);
+  font-size: 15px;
+  line-height: 20.43px;
+  color: rgba(255, 255, 255, 1);
+  padding: 15px 20px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  right: 0%;
+  top: 0%;
+
+  animation: glowing 2s ease-in-out infinite alternate;
+}
+@keyframes glowing {
+  50% {
+    filter: blur(1px);
+  }
+  100% {
+    filter: none;
+  }
+}
+.inputContainer {
+  width: 201px;
+  height: 50px;
+  box-shadow: 0px 4px 6.3px 0px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.send {
+  width: 52px;
+  height: 50px;
+  border-radius: 5px;
+  background: rgba(26, 95, 255, 1);
+  color: white;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.rating {
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(26, 95, 255, 1);
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  color: rgba(132, 127, 127, 1);
+  font-size: 15px;
+  line-height: 20.43px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.dotContainer {
+  background-color: #f7f8ff;
+  border-radius: 5px;
+}
+
+.disabled {
+  background: rgba(255, 142, 33, 1);
+}
+
+.inputDisabled {
+  background: rgba(119, 119, 119, 1);
+  color: rgba(255, 255, 255, 1);
+}

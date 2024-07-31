@@ -1,0 +1,23 @@
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+}
+
+.ellipse2 {
+  position: absolute;
+  right: 0;
+  top: 20%;
+}
+
+.ellipse1 {
+  position: absolute;
+  right: 25%;
+  bottom: 0;
+}
+
+.triangle {
+  position: absolute;
+  top: 30%;
+  left: 0%;
+}

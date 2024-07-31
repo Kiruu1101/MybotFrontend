@@ -1,0 +1,92 @@
+.container {
+  width: 315px;
+  height: 130px;
+  background: rgba(24, 24, 27, 1);
+  border-radius: 8px;
+  position: relative;
+  padding: 20px 15px;
+  box-sizing: border-box;
+}
+
+.delete {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  color: rgba(248, 43, 96, 1);
+  background: rgba(217, 217, 217, 1);
+  top: -11%;
+  right: -4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 20px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.inputContainer {
+  background: rgba(31, 31, 35, 1);
+  border-radius: 5px;
+  width: 100%;
+  height: 45px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.inputButton {
+  margin-top: 15px;
+  border-radius: 5px;
+  background: rgba(31, 31, 35, 1);
+  padding: 10px;
+}
+
+.input {
+  width: 100%;
+  color: rgba(132, 132, 132, 0.33);
+  height: 45px;
+  background: rgba(31, 31, 35, 1);
+  border: none;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.bubbleIcon {
+  width: 20px;
+  height: 20px;
+  color: rgba(26, 95, 255, 1);
+  margin: 10px;
+}
+
+.active {
+  border: 1px solid rgba(245, 80, 80, 1);
+}
+.error {
+  font-size: 10.43px;
+  line-height: 15.65px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgba(82, 34, 36, 1);
+  padding: 5px 0px;
+}
+
+.text {
+  font-size: 12px;
+  line-height: 21px;
+  color: rgba(85, 85, 85, 1);
+  padding: 10px 0px;
+}
+
+.gif {
+  width: 30px !important;
+  height: 30px !important;
+}

@@ -1,0 +1,40 @@
+.container {
+  background: linear-gradient(180deg, #171923 0%, #1a202c 100%);
+  padding-top: 100px;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.content {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.heading {
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 36px;
+  line-height: 43.2px;
+  text-align: center;
+}
+
+.text {
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  color: rgba(160, 174, 192, 1);
+}
+
+.create {
+  font-size: 18px;
+  padding: 21.15px 32px 21.25px 32px;
+}
+
+.attachment2 {
+  margin-bottom: 25rem;
+}

@@ -1,0 +1,63 @@
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s forwards;
+}
+
+.hidden-componenet {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.visible-component {
+  opacity: 1;
+}
+
+.white {
+  color: white;
+}
+
+.flexbox-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.border-none {
+  border: none !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-center {
+  text-align: center;
+}
+.bg-white {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.light-black {
+  color: rgba(71, 68, 68, 1);
+}

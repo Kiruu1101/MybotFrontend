@@ -1,0 +1,163 @@
+.header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  height: 64px;
+  font-size: 16px;
+  line-height: 19.2px;
+  position: relative;
+}
+
+.menu {
+  width: 292px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 6px;
+}
+
+.userName,
+.username {
+  padding: 8px 9px 8px 9px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.userMenu {
+  width: 292px;
+  height: 142px;
+  background: rgba(29, 29, 29, 1);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 6px;
+  position: absolute;
+  top: 20%;
+  color: rgba(255, 255, 255, 0.92);
+  display: grid;
+  align-items: center;
+  font-size: 16px;
+}
+
+.username,
+.setting,
+.logout {
+  padding: 8px 9px 8px 9px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  display: flex;
+  align-items: center;
+}
+
+.setting {
+  height: 42px;
+}
+
+.logout {
+  height: 48px;
+}
+.username {
+  height: 50.5px;
+}
+
+.logout {
+  color: rgba(255, 165, 76, 1);
+  border-radius: 6px;
+}
+
+.main {
+  margin: 40px 0px 40px 10vw;
+}
+
+.folderContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.folder {
+  font-size: 16px;
+  line-height: 19.2px;
+  border-radius: 6px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+}
+
+.active {
+  background: rgba(26, 95, 255, 1) !important;
+}
+
+.folderName {
+  max-width: 180px;
+  text-align: left;
+}
+
+.deleteIcon {
+  color: rgba(245, 80, 80, 1);
+  cursor: pointer;
+}
+
+.formContainer {
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form {
+  width: 225px;
+  height: 275px;
+  background: rgba(26, 95, 255, 1);
+  border-radius: 6px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+
+.formName {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.add {
+  width: 40px;
+  height: 40px;
+}
+
+.formDelete {
+  position: absolute;
+  right: -7px;
+  top: -3%;
+  width: 16px;
+  height: 18px;
+}
+
+.formLoader {
+  width: 100%;
+  height: 50vh;
+}
+
+.loader {
+  width: 100%;
+  height: 90vh;
+}
+
+.formname {
+  max-width: 100px;
+  text-align: center;
+}
